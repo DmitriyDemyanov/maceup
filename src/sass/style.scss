@@ -1,0 +1,50 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(https://image.shutterstock.com/image-photo/makeup-artist-applies-powder-blush-260nw-1805797540.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.product-text {
+    font-size: 30px;
+    margin: 0 20px;
+    color:rgba(101, 31, 192, 0.8);
+
+}
+
+
+.form-select {
+    width: 40vw;
+    height: 60px;
+    background-color:rgba(255,255, 255, 0.1);
+    color:rgb(45, 20, 20);
+    font-size: 24px;
+}
+
+.container_cards {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+   justify-items: center;
+   
+}
+
+.card {
+    width: 18rem;
+    min-height: 608px;
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
